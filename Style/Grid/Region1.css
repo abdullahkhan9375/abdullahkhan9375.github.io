@@ -1,0 +1,26 @@
+.region-1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: rgb(169, 236, 236); */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.h1-name {
+    text-align: center;
+    /* background-color: aqua; */
+    width: 98vh;
+    color: black;
+    height: auto;
+    font-size: 3.5rem;
+    transform: rotate(-90deg);
+    /* background-color: transparent;
+    /* border: 1px solid white; */
+    /* backdrop-filter: blur(8px); */
+}

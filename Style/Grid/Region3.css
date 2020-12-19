@@ -1,0 +1,76 @@
+.region-3 {
+    /* background-color: rgb(123, 214, 214); */
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    background-color: transparent;
+    /* border: 1px solid white; */
+    backdrop-filter: blur(8px);
+}
+
+.region-3--main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.motto {
+    /* background-color: antiquewhite; */
+    padding: 0.6em 1em 0.3em 1em;
+    font-size: 1.15rem;
+}
+
+.region-3--footer {
+    /* background-color: aliceblue; */
+    width: 90%;
+    height: 5vh;
+    /* margin: 3em 0em 0em 0em; */
+    /* border-top: 1px solid black; */
+    padding: 0em 0.2em 0em 0.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.region-3--footer div {
+    margin-left: 2em;
+}
+
+.region-3--footer button {
+    cursor: pointer;
+    background-color: #FF0000;
+    text-align: center;
+    height: 100%;
+    width: 25%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 2px;
+    stroke: 0;
+    border: 0;
+    box-shadow: var(--box-shadow);
+    transition: 0.2s ease;
+}
+
+.region-3--footer button:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.region-3--footer button:focus {
+    outline: none;
+}
+
+.region-3--footer button:active {
+    transform: scale(0.99);
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.region-3 img {
+    width: 30px;
+    cursor: pointer;
+}

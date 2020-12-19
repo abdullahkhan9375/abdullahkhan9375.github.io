@@ -1,0 +1,105 @@
+
+.container--form-main {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    backdrop-filter: blur(8px);
+    transition: 0.3s linear;
+}
+
+.container--form-main form {
+    margin: 1em 0em 0em 0em;
+    /* background-color: aquamarine; */
+    width: 70%;
+}
+
+.form--item {
+    /* background-color: aqua; */
+    margin: 0.1em 0em 0.1em 0em;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form--item input {
+    height: 40%;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(143, 143, 143);
+    width: 70%;
+    box-shadow: inset 0px 0px 3px 0.3px rgba(68, 68, 68, 0.5);
+    border-radius: 2px;
+    padding: 0em 0.3em 0em 0.3em;
+    border: none;
+    border-top: 2px solid rgb(68, 68, 68);
+}
+
+.form--item input:focus {
+    outline: none;
+    /* border: 1px solid black; */
+}
+
+.container--form-main button {
+    margin-top: 1em;
+    cursor: pointer;
+    background-color: #FF0000;
+    text-align: center;
+    height: 15%;
+    width: 25%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 2px;
+    stroke: 0;
+    border: 0;
+    box-shadow: var(--box-shadow);
+    transition: 0.2s ease;
+}
+
+.container--form-main button:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#message {
+    color: white;
+    height: 100%;
+    background-color: rgb(245, 245, 245);
+    width: 70%;
+    background-color: rgb(143, 143, 143);
+    width: 70%;
+    box-shadow: inset 0px 0px 3px 0.3px rgba(68, 68, 68, 0.5);
+    border-radius: 2px;
+    padding: 0em 0.3em 0em 0.3em;
+    border: none;
+    border-top: 2px solid rgb(68, 68, 68);
+}
+
+#x {
+    cursor: pointer;
+    margin: 1.5em 1.75em 0em 0em;
+    align-self: flex-end;
+    transform: translate(100px 10px);
+}
+
+.show {
+    z-index: 1;
+    opacity: 1;
+}
+
+.hide {
+    z-index: -1;
+    opacity: 0;
+}

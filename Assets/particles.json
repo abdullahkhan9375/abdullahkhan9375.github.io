@@ -1,0 +1,101 @@
+{
+  "fpsLimit": 60,
+  "interactivity": {
+    "events": {
+      "onClick": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onHover": {
+        "enable": true,
+        "mode": "bubble"
+      }
+    },
+    "modes": {
+      "bubble": {
+        "distance": 250,
+        "duration": 2,
+        "opacity": 0,
+        "size": 0
+      },
+      "grab": {
+        "distance": 400
+      },
+      "repulse": {
+        "distance": 400
+      }
+    }
+  },
+  "particles": {
+    "color": {
+      "value": "#ffffff"
+    },
+    "links": {
+      "color": {
+        "value": "#ffffff"
+      },
+      "distance": 150,
+      "opacity": 0.4
+    },
+    "move": {
+      "attract": {
+        "rotate": {
+          "x": 600,
+          "y": 600
+        }
+      },
+      "enable": true,
+      "outModes": {
+        "bottom": "out",
+        "left": "out",
+        "right": "out",
+        "top": "out"
+      },
+      "random": true,
+      "speed": 0.1
+    },
+    "number": {
+      "density": {
+        "enable": true
+      }
+    },
+    "opacity": {
+      "random": {
+        "enable": true
+      },
+      "animation": {
+        "enable": true,
+        "speed": 1
+      }
+    },
+    "shape": {
+      "options": {
+        "polygon": {
+          "nb_sides": 5
+        },
+        "star": {
+          "nb_sides": 5
+        }}
+    },
+    "size": {
+      "random": {
+        "enable": true
+      },
+      "animation": {
+        "minimumValue": 0.3,
+        "speed": 4
+      }
+    },
+    "stroke": {
+      "color": {
+        "value": "#000000",
+        "animation": {
+          "enable": false,
+          "speed": 1,
+          "sync": true
+        }
+      }
+    }
+  },
+  "pauseOnBlur": false
+}

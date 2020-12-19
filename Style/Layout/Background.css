@@ -1,0 +1,30 @@
+.main {
+    height: 98vh;
+    width: 100%;
+    /* background-color: rgb(70, 71, 71); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-layer-background {
+    position: absolute;
+    top: 22%;
+    left: 0%;
+    z-index: -1;
+    height: 75vh;
+    width: 100%;
+    /* background-image: url('../../Assets/Background/drawing.png'); */
+    background-position: top;
+    background-size: cover;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+
+canvas {
+    position: absolute;
+    z-index: -1;
+    background-color: whitesmoke;
+    /* background: linear-gradient(0deg, rgb(81, 89, 97) 0%, rgb(1, 4, 46) 100%); */
+}

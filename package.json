@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-4",
+  "version": "0.1.0",
+  "description": "my portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AbdullahKhan",
+  "license": "ISC",
+  "dependencies": {
+    "particles.js": "^2.0.0",
+    "tsparticles": "^1.18.11"
+  }
+}

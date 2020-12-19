@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="53mm" height="52mm" version="1.1" viewBox="0 0 53 52" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0,-245)">
+  <g transform="translate(-60.6 181)">
+   <path transform="scale(.265)" d="m375 313c-44.1 0.0671-51.9 81.7-142 31.1a97.5 97.5 0 0 0 97.3 92.4 97.5 97.5 0 0 0 97.4-96.2c-22.7-20.1-39.1-27.4-52.3-27.4z" fill="#27292a" stroke="#27292a" stroke-linecap="square" stroke-width="3.4" style="paint-order:markers stroke fill"/>
+   <path d="m75.4 97.2c11.7-0.0178 13.7-21.6 37.6-8.19-0.713-13.7-12-24.5-25.7-24.5-14.1 0.0081-25.6 11.4-25.8 25.5 6.01 5.33 10.4 7.2 13.9 7.2z" fill="#eaeaeb" stroke="#27292a" stroke-linecap="square" stroke-width=".9" style="paint-order:markers stroke fill"/>
+   <g transform="matrix(1.27 0 0 1.27 29.3 -14.1)" fill="#27292a">
+    <circle cx="36.4" cy="76.7" r="3.31" style="paint-order:markers stroke fill"/>
+    <path d="m37 72.8c0.763 0.111 1.52 0.468 2 0.873l-0.379-1.52z"/>
+    <path d="m39.6 74.3c0.446 0.629 0.708 1.42 0.751 2.05l0.841-1.33z"/>
+    <path d="m40.3 77.3c-0.124 0.762-0.493 1.51-0.906 1.99l1.53-0.354z"/>
+    <path d="m33.8 73.6c0.607-0.476 1.39-0.775 2.01-0.848l-1.36-0.777z"/>
+    <path d="m32.3 76.3c0.0815-0.767 0.409-1.53 0.794-2.04l-1.51 0.438z"/>
+    <path d="m33.3 79.3c-0.485-0.6-0.795-1.37-0.878-2l-0.756 1.38z"/>
+    <path d="m36 80.7c-0.77-0.0534-1.55-0.352-2.06-0.719l0.493 1.49z"/>
+    <path d="m38.8 79.9c-0.617 0.463-1.4 0.745-2.03 0.804l1.35 0.806z"/>
+   </g>
+   <path d="m102 91.2c0.664 6.01-1.76 9.08-7.76 8.24a5.67 5.67 0 0 0 3.94 1.6 5.67 5.67 0 0 0 5.67-5.67 5.67 5.67 0 0 0-1.84-4.17z" fill="#eaeaeb" style="paint-order:markers stroke fill"/>
+  </g>
+ </g>
+</svg>
