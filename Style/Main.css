@@ -8,4 +8,5 @@
 @import './Layout/Background.css';
 @import './Components/Cards.css';
 @import './Layout/Form.css';
+@import './Media_Queries/992px.css';
 

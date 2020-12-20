@@ -1,4 +1,5 @@
 window.onload = ()=>{
+    if (document.body.clientWidth >= 1200){
 $(document).ready(function(){
     $('.carousel').slick({
         vertical : true,
@@ -11,4 +12,5 @@ $(document).ready(function(){
         prevArrow : "#arrow-up"
     })
 })
+    }
 };

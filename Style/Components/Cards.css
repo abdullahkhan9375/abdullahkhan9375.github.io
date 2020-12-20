@@ -1,5 +1,5 @@
 .container--card {
-    height: 45vh;
+    height: 46.5vh;
     width: 84%;
     margin: 1em 1em;
     display: flex;
@@ -9,12 +9,13 @@
     border-radius: 7px;
     color: black;
     background-color: transparent;
-    border: 1px solid black;
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.5);
+    /* border: 1px solid black; */
     backdrop-filter: blur(5px);
     transition: none;
 }
 
-.container--card:focus{
+.container--card:focus {
     outline: none;
 }
 
@@ -28,22 +29,23 @@
     background-position: center;
 }
 
-.card--item.img-1{
+.card--item.img-1 {
     background-image: url('../../Assets/CARD/review.jpg');
 }
 
-.card--item.img-2{
+.card--item.img-2 {
     background-image: url('../../Assets/CARD/maxresdefault.jpg');
     background-size: contain;
 }
 
-.card--item.img-3{
+.card--item.img-3 {
     background-image: url('../../Assets/CARD/eastpac.PNG');
 }
 
-.card--item.img-4{
+.card--item.img-4 {
     background-image: url('../../Assets/IMG/covid.jpg');
 }
+
 .card--item.mid {
     /* background-color: aqua; */
     display: flex;

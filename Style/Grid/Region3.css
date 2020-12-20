@@ -4,10 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:black;
+    color: black;
     background-color: transparent;
     /* border: 1px solid white; */
     backdrop-filter: blur(8px);
+    box-shadow: 0px 8px 34px -5px rgba(0, 0, 0, 0.5);
 }
 
 .region-3--main {
@@ -22,6 +23,12 @@
     padding: 0.6em 1em 0.3em 1em;
     font-size: 1.15rem;
 }
+
+/* @media screen and (max-width : 1200px){
+    .motto{
+        font-size: 0.8rem;
+    }
+} */
 
 .region-3--footer {
     /* background-color: aliceblue; */

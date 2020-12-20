@@ -87,4 +87,6 @@ function draw(){
   window.requestAnimationFrame(draw)
 }
 
+if (document.body.clientWidth >= 900){
 init()
+}
