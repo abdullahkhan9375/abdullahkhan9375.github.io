@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Khan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #c6c2c2;
+            color: #090a0b;
+            margin-top: 13vh;
+        }
+        .content {
+            max-width: 700px;
+            width: 90%;
+            padding: 20px;
+            text-align: left;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 900;
+            margin-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 650;
+            margin-top: 0px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 3px;
+            margin-bottom: -10px;
+        }
+        p {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+        .icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .icons a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        @media (max-width: 600px) {
+            .content {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+            h3 {
+                font-size: 1.25rem;
+                padding-bottom: 3px;
+            }
+            p {
+                font-size: 0.95rem;
+                line-height: 1.3;
+            }
+            .icons {
+                gap: 10px;
+            }
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="content">
+        <div id="header">
+            <h1 style="font-weight: 200";>Welcome to my humble corner of the internet,</h1>
+            <h1 style="margin-bottom: 1.5vh";>I am Abdullah.</h1>
+        </div> 
+        <div id="earning_living">
+            <h3>To Earn a Living</h3>
+            <p>My 9 to 5 calling is as a software engineer in Sydney. I untangle spaghetti code, add my own flavour
+                and put the lid back on. I am adept in Python, formidable in Javascript, and exhibit irrational behaviours
+                around Java. If I am doing a poor job in explaining this, please take a look at my <span onclick="downloadResume()" style="cursor: pointer; font-weight: 600; border-bottom: 2px solid black" >resume</span> . Currently facing
+                strong bouts of imposter syndrome at Epoch Capital; It’s a cool place to work.</p>
+        </div>
+        <div id="boredom">
+            <h3>To not die of Boredom</h3>
+            <p>I spend the odd weekend in my home office, read technical literature and sail the seas of the internet
+                in search of gold. I haven’t struck it yet. My personal Github serves as an account of my personal quests.
+                So far I have traveled to the archipelago of Data Science, been marooned in the island of nauseating React apps,
+                and planted a flag in the free nation of ideas that tickle my brain.</p>
+            <p>In the real world, I enjoy working out while gazing in the mirror, optimizing my nutrition by watching Talon Fitness
+                (blue-berries are S tier) and taking pictures of awe-inducing cityscapes and country-side.</p>
+        </div>
+        <div id="world">
+            <h3>To understand the World</h3>
+            <p>I spend the odd weekend in my home office, read technical literature and sail the seas of the internet
+                in search of gold. I haven’t struck it yet. My personal Github serves as an account of my personal quests.
+                So far I have traveled to the archipelago of Data Science, been marooned in the island of nauseating React apps,
+                and planted a flag in the free nation of ideas that tickle my brain.</p>
+        </div>
+        <div id="connect">
+            <h3>To Connect with Me</h3>
+            <p>If you have reached this part, might as well connect with me.</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/abdullah-khan-91026917b/" target="_blank"><i style="cursor: pointer" class="fab fa-linkedin">
+                </i></a>
+                <a href="mailto:abdullahkhan16021999@gmail.com"><i style="cursor: pointer" class="fas fa-envelope">
+
+                </i></a>
+                <a href="https://github.com/abdullahkhan9375" target="_blank"><i style="cursor: pointer" class="fab fa-github"></i></a>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        function downloadResume() {
+            const link = document.createElement('a');
+            link.href = 'abdullah_khan.pdf'; // Replace with the actual file path
+            link.download = 'abdullah_khan.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>
